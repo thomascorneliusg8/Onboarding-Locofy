@@ -1,0 +1,15 @@
+.iconeditChild {
+  width: 16px;
+  height: 15.9px;
+  position: relative;
+}
+.iconedit {
+  width: 30px;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-darkslateblue-200);
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

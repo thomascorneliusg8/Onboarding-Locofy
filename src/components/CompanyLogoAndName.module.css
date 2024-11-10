@@ -1,0 +1,57 @@
+.company {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  z-index: 1;
+}
+.companyLogo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.companyLogoWrapper,
+.logoIconPair {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.logoIconPair {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.companyLogoWrapper {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-11xs);
+}
+.companyLogoAndNameChild {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.companyName {
+  width: 156.8px;
+  position: relative;
+  font-size: var(--font-size-sm);
+  color: var(--color-slategray);
+  display: inline-block;
+  z-index: 1;
+}
+.companyLogoAndName {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs-5);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-lightsteelblue-100);
+  font-family: var(--font-abeezee);
+}

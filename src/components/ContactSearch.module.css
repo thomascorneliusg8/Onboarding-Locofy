@@ -1,0 +1,89 @@
+.contactSearchChild {
+  width: 298px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-200);
+  height: 60px;
+  display: none;
+}
+.btChild {
+  height: 16px;
+  width: 15px;
+  position: relative;
+}
+.bt {
+  height: 30px;
+  width: 30px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lightsteelblue-200);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-8xs);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.contactSearch1 {
+  width: 161px;
+  height: 17px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.contactInput,
+.searchTerm {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.searchTerm {
+  height: 24px;
+  width: 160px;
+  flex-direction: column;
+  padding: var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+}
+.contactInput {
+  height: 30px;
+  width: 205px;
+  flex-direction: row;
+  gap: var(--gap-mini);
+}
+.searchDropdownChild {
+  width: 10px;
+  height: 10px;
+  position: relative;
+  z-index: 1;
+}
+.contactSearch,
+.searchDropdown {
+  height: 20px;
+  width: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+}
+.contactSearch {
+  width: 298px;
+  height: 60px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-200);
+  flex-direction: row;
+  padding: var(--padding-mini);
+  gap: var(--gap-28xl);
+  z-index: 1;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-lightsteelblue-100);
+  font-family: var(--font-abeezee);
+}

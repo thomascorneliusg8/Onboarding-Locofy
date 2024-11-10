@@ -1,0 +1,109 @@
+.title {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  line-height: 100%;
+  font-weight: 300;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.titleWrapper {
+  width: 351px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-mid);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameChild {
+  height: 6px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+.vectorWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.standaloneSubtitleContentChild {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  z-index: 1;
+}
+.standaloneSubtitleContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.subtitle {
+  flex: 1;
+  position: relative;
+  line-height: 19px;
+  display: inline-block;
+  min-width: 24px;
+  max-width: 100%;
+  z-index: 1;
+}
+.frameGroup,
+.frameParent,
+.standaloneSubtitleContentParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.standaloneSubtitleContentParent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-xl);
+  color: var(--color-darkslateblue-100);
+}
+.frameGroup,
+.frameParent {
+  flex-direction: column;
+}
+.frameGroup {
+  align-self: stretch;
+  gap: var(--gap-9xl);
+  font-size: var(--font-size-base);
+  color: var(--color-lightsteelblue-100);
+}
+.frameParent {
+  gap: var(--gap-7xl);
+  text-align: left;
+  font-size: var(--font-size-23xl);
+  color: var(--white);
+  font-family: var(--font-abeezee);
+}
+@media screen and (max-width: 800px) {
+  .title {
+    font-size: var(--font-size-15xl);
+    line-height: 34px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .title {
+    font-size: var(--font-size-6xl);
+    line-height: 25px;
+  }
+  .standaloneSubtitleContentParent {
+    flex-wrap: wrap;
+  }
+}

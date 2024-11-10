@@ -1,0 +1,58 @@
+.frameChild {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  z-index: 1;
+}
+.frameWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.subtitle {
+  flex: 1;
+  position: relative;
+  line-height: 19px;
+  display: inline-block;
+  min-width: 80px;
+  max-width: 100%;
+  z-index: 1;
+}
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.subtitle1 {
+  flex: 1;
+  position: relative;
+  line-height: 19px;
+  display: inline-block;
+  min-width: 55px;
+  max-width: 100%;
+  z-index: 1;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-lightsteelblue-100);
+  font-family: var(--font-abeezee);
+}
+@media screen and (max-width: 450px) {
+  .frameGroup {
+    flex-wrap: wrap;
+  }
+}

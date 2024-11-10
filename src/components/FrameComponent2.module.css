@@ -1,0 +1,73 @@
+.frameChild {
+  width: 220px;
+  height: 341px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray-200);
+  display: none;
+}
+.paid {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  z-index: 1;
+}
+.frameParent,
+.paidWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.paidWrapper {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameItem {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.marketingAgency {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+.appointmentSetting {
+  margin: 0;
+}
+.marketingAgencyCienceContainer {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 18px;
+  color: var(--color-slategray);
+  z-index: 1;
+}
+.rectangleParent {
+  width: 220px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray-200);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xl) var(--padding-6xl) var(--padding-17xl);
+  box-sizing: border-box;
+  gap: var(--gap-sm-5);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-lightsteelblue-100);
+  font-family: var(--font-abeezee);
+}
+@media screen and (max-width: 800px) {
+  .rectangleParent {
+    flex: 1;
+  }
+}

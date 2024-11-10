@@ -1,0 +1,22 @@
+<svg width="221" height="221" viewBox="0 0 221 221" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.6" filter="url(#filter0_f_0_12020)">
+<circle cx="110.5" cy="110.5" r="80.5" fill="url(#paint0_radial_0_12020)"/>
+</g>
+<circle cx="110.5" cy="110.5" r="80.5" fill="url(#paint1_radial_0_12020)"/>
+<path d="M111.545 137.333V142.909M111.545 137.333C101.29 137.333 95.2265 131.047 92.0693 126.182M111.545 137.333C121.799 137.333 127.862 131.047 131.02 126.182M122.696 103.879V115.03C122.696 121.189 117.703 126.182 111.545 126.182C105.386 126.182 100.393 121.189 100.393 115.03V103.879C100.393 97.72 105.386 92.7273 111.545 92.7273C117.703 92.7273 122.696 97.72 122.696 103.879Z" stroke="white" stroke-width="2" stroke-linecap="square"/>
+<defs>
+<filter id="filter0_f_0_12020" x="0.700001" y="0.700001" width="219.6" height="219.6" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="14.65" result="effect1_foregroundBlur_0_12020"/>
+</filter>
+<radialGradient id="paint0_radial_0_12020" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(110.5 110.5) rotate(90) scale(80.5)">
+<stop offset="0.49" stop-color="#FC63D7" stop-opacity="0"/>
+<stop offset="1" stop-color="#2E1780"/>
+</radialGradient>
+<radialGradient id="paint1_radial_0_12020" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(110.5 110.5) rotate(90) scale(80.5)">
+<stop offset="0.875" stop-color="#FC63D7" stop-opacity="0"/>
+<stop offset="1" stop-color="#FC63D7"/>
+</radialGradient>
+</defs>
+</svg>
